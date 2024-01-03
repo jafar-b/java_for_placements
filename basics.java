@@ -1,3 +1,15 @@
+
+// public class basics{
+
+
+//     public static void main(String Args[]){
+
+
+        
+//     }
+// }
+
+
 // import java.util.ArrayList;
 
 // public class basics {
@@ -255,6 +267,137 @@
 
 
 
-//prime factors of a number
+//Greatest Common Divisor
+// public class basics{
+// public static void main(String Argsp[]){
+// int a=36;
+// int b=60;
+// gcd(a,b);
+// }
+// static void gcd(int n1, int n2 ){
+// int gcd=0;
+// for(int i=2;i<=n1|| i<=n2;i++){
+// if(n1%i==0 && n2%i==0){
+// gcd=i;
+// }
+// }
+// System.out.println(gcd);
+// }
+// }
 
+//Lowest Common Multiple
+// public class basics{
+//     public static void main(String Args[]){
+// int a =12;
+// int b=14;
+// lcm(a, b);
+//    }
+// static void lcm(int a,int b){
+// int max=a>b? a:b;
+// int lcm=0;
+// for(int i=max;i<=a*b;i++){
+// if(i%a==0 && i%b==0){
+// lcm=i;
+// break;
+// }
+// }
+// System.out.println(lcm);
+// }
+// }
+
+
+
+// //decimal to binary:
+// public class basics{
+
+
+//     public static void main(String Args[]){
+//         String str="1110";
+//         System.out.println("in Binary: "+str); int n=Integer.parseInt(str, 2); System.out.println("in Decimal: "+n);
+        
+//     }
+// }
+
+//OR
+
+
+// public class basics{
+
+
+//     public static void main(String Args[]){
+
+// int n =101100001;
+// convert(n);
+
+//     }
+
+// static void convert(int a){
+
+// int decimal=0;
+// int n=0;
+// int temp=a;
+// while(a>0){
+//     int digit=a%10;
+//     decimal=decimal+digit *(int) Math.pow(2, n);
+//     a=a/10;
+//     n++;
+// }
+// System.out.println(decimal);
+// }
+// }
+
+//octal to decimal
+
+
+// public class basics{
+// public static void main(String Args[]){
+// int a=1101;
+// convert(a);
+//     }
+
+
+// static void convert(int octal){
+//     int decimal=0;
+//     int n=0;
+//     while(octal>0){ 
+//         int digit=n%10;
+//         decimal=decimal + digit*(int)Math.pow(8, n);
+//         n++;
+//         octal=octal%10;
+
+//     }
+//     System.out.println(decimal);
+
+
+// }
+// }
+
+import java.util.Scanner;
+public class basics
+{
+	public static void main(String args[])
+	{      
+		//scanner class object creation
+		Scanner sc = new Scanner(System.in);    
+		//input from user
+		System.out.print("Enter a octal number : ");
+		int octal = sc.nextInt();
+		//Declare variable to store decimal number  
+		int decimal = 0;
+		//Declare variable to use in power		
+		int n = 0;  
+		//writing logic for the conversion
+		while(octal > 0)
+		{
+			int temp = octal % 10;  
+			decimal += temp * Math.pow(8, n);  
+			octal = octal/10;  
+			n++;  
+		}
+		//printing result
+		System.out.println("Decimal number : "+decimal); 
+		//closing scanner class(not compulsory, but good practice)
+		sc.close();   
+	}
+}
 
