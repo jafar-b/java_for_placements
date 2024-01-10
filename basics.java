@@ -486,7 +486,7 @@
 // }
 
 
-//
+//convert all zeros to one's in a given number
 
 // public class basics{
 // public static void main(String Args[]){
@@ -588,5 +588,55 @@
 // System.out.println("digits= "+count);
 //     }
 // }
+
+
+//digits to words of a given number
+// import java.util.ArrayList;
+// public class basics{
+//     public static void main(String Argsp[]){
+// int number=9999;
+// whatis(number);
+//     }
+
+
+
+//     static void whatis(int n){
+
+// int digit=0;
+// String units[]=new String []{"Zero,","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"}; 
+// String tens[]=new String []{"Ten","Twenty","Thirty","Fourty","Fifty","Sixty","Seventy","Eighty","Ninety"};
+// String Hundreds[]=new  String[]{"One Hundred","Two Hundred","Three Hundred","Four Hundred","Five Hundred","Six Hundred","Seven Hundred","Eight Hundred","Nine Hundred"};
+// String Thousands[]=new String[]{"One Thousand,","Two Thousand","Three Thousand","Four Thousand","Five Thousand","Six Thousand","SevenThousand","Eight Thousand","Nine Thousand"};
+// ArrayList <String>words=new ArrayList<String>();
+
+// // if(n>0){}
+
+// digit=n%10;
+// words.add(units[digit]);
+// n=n/10;
+// if(n>0){
+// digit=n%10;
+// words.add(tens[digit-1]);
+// n=n/10;
+// }
+// if(n>0){
+// digit=n%10;
+// words.add(Hundreds[digit-1]);
+// n=n/10;
+
+// }
+// if(n>0){
+// digit=n%10;
+// words.add(Thousands[digit-1]);
+// n=n/10;
+// }
+
+// for (int  i = words.size()-1;i>=0; i--) {
+//     System.out.print(words.get(i)+" ");
+// }
+
+//     }
+// }
+
 
 
