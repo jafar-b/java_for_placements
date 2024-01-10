@@ -372,32 +372,221 @@
 // }
 // }
 
-import java.util.Scanner;
-public class basics
-{
-	public static void main(String args[])
-	{      
-		//scanner class object creation
-		Scanner sc = new Scanner(System.in);    
-		//input from user
-		System.out.print("Enter a octal number : ");
-		int octal = sc.nextInt();
-		//Declare variable to store decimal number  
-		int decimal = 0;
-		//Declare variable to use in power		
-		int n = 0;  
-		//writing logic for the conversion
-		while(octal > 0)
-		{
-			int temp = octal % 10;  
-			decimal += temp * Math.pow(8, n);  
-			octal = octal/10;  
-			n++;  
-		}
-		//printing result
-		System.out.println("Decimal number : "+decimal); 
-		//closing scanner class(not compulsory, but good practice)
-		sc.close();   
-	}
-}
+
+//hexadecimal to decimal conversion
+
+// public class basics{
+// 	public static void main(String Args[]){
+// 		String n="C9";
+
+// 		int x=Integer.parseInt(n,16);
+// 		System.out.println(x);
+        
+//     }
+// }
+
+
+// //decimal to binary conversion
+// public class basics{
+// public static void main(String Args[]){
+// int n=17;
+// convert(n);
+//     }
+
+// static void convert(int n){
+// int arr[]=new int[10];
+// int i=0;
+// while(n>0){
+// int rem=n%2;
+// arr[i++]=rem;
+// n/=2;
+// }
+
+
+// for(int j=arr.length-1;j>=0;j--){
+// 	System.out.print(arr[j]+", ");
+// }
+// }
+// }
+
+
+// /decimal to octal conversion
+
+// public class basics{
+//     public static void main(String Args[]){
+// int a=214;
+// convert(a);
+        
+//     }
+
+// 	static void convert(int decimal){
+
+// 		int arr[]=new int[20];
+// int i=0;
+// while (decimal>0) {
+// int rem=decimal%8;
+// arr[i++]=rem;
+// decimal=decimal/8;
+// }
+// for(int j=arr.length-1;j>=0;j--){
+
+// 	System.out.print(arr[j]+" ");
+// }
+
+// 	}
+// }
+
+
+// //decimal to hexadecimal
+
+// public class basics{
+//     public static void main(String Args[]){
+// int a=1457;
+// convert(a);
+
+        
+//     }
+
+// static void convert(int decimal){
+// int arr[]=new int [20];
+// int i=0;
+
+// while(decimal>0){
+// int rem=decimal % 16;
+// arr[i++]=rem;
+// decimal=decimal/16;
+// }
+// for(int j=arr.length-1;j>=0;j--){
+// 	switch (arr[j]) {
+// 		case 10:
+// 		System.out.print("A ");			
+// 			break;
+// 		case 11:
+// 		System.out.print("B ");			
+// 			break;
+// 		case 12:
+// 		System.out.print("C ");			
+// 			break;
+// 		case 13:
+// 		System.out.print("D ");			
+// 			break;
+// 		case 14:
+// 		System.out.print("E ");			
+// 			break;
+// 		case 15:
+// 		System.out.print("F ");			
+// 			break;
+		
+// 		default:
+// 		System.out.print(arr[j]+" ");
+// 			break;
+// 	}
+// }
+// 	}
+// }
+
+
+//
+
+// public class basics{
+// public static void main(String Args[]){
+// int n=12001;
+// System.out.println(replace(n));
+// // 1234
+// }
+
+
+// static int replace(int n){
+//     if(n==0)return 0;
+//     int digit=n%10;
+//     if(digit==0){
+//         digit=1;
+//     }
+//     return replace((n/10))*10+digit;
+// }
+// }
+
+
+
+//CAlculate the area of a circle
+
+// public class basics{
+
+//     public static void main(String Args[]){
+
+// int a=7;
+// calc(a);
+//     }
+
+
+//     static void calc(int n){
+
+//  double area=3.14*(n*n);
+// System.out.println("Area of circle with radius "+n+" is "+area+"");
+//     }
+// }
+
+
+//prime numbers from 1 to 100
+// public class basics{
+
+
+//     public static void main(String Args[]){
+
+//         System.out.println("Hello");
+// int n=100;
+// check(n);
+
+
+// for(int i=1;i<n;i++){
+//     boolean a=check(i);
+//     if(a==true){
+//         System.out.print(i+" ");
+//     }
+// }
+//     }
+
+//     static boolean check(int n){
+
+// if(n<2){
+//     return true;
+// }
+//         for(int i=2;i<=n/2;i++){
+
+//             if(n%i==0){
+// return false;
+//             }
+//         }
+//         return true;
+        
+//     }
+// }
+
+
+//calculate the number of digits in an integer
+
+
+// public class basics{
+
+
+//     public static void main(String Args[]){
+
+// int a=1234;
+// count(a);
+        
+//     }
+
+//     static void count(int n){
+// int count=0;
+// while(n>0){
+
+//     int digit=n%10;
+// count++;
+// n=n/10;
+// }
+
+// System.out.println("digits= "+count);
+//     }
+// }
+
 
