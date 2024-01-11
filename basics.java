@@ -1,3 +1,4 @@
+//Basics
 
 // public class basics{
 
@@ -640,3 +641,93 @@
 
 
 
+
+
+
+
+
+
+
+
+
+//Codes for Recursion
+
+
+
+
+
+
+
+
+
+
+
+//finding power of a number
+
+// public class basics{
+//     public static void main(String Args[]){
+// int a=5;
+// int order=3;
+// System.out.println(find(a, order));  
+// }
+// static int find(int n ,int order){   //(5,3)
+// if(order==0){
+//     return 1;
+// }
+// return n*find(n, order-1);        //(5*find(5,2))==25
+//                                   //(5*find(5,1))==5 --------25*5=125
+//                                   //(5*find(5,0))==1 --------25*5*1=125
+// }
+// }
+
+
+
+//largest element in an array
+
+
+// public class basics{
+
+
+//     public static void main(String Args[]){
+
+// int arr[]=new int[]{13,16,20,90,120,1120};
+// find(arr);
+//     }
+
+// static void  find(int[] arr){
+// int max=0;
+
+// for(int i=0;i<arr.length;i++){
+//     if(arr[i]>max) max=arr[i];
+
+// }
+// System.out.println("Largest element= "+max);
+// }
+// }
+
+
+
+//reverse a number
+// public class basics{
+//public static void main(String Args[]){
+// int a=1234; //4321
+// reverse(a);
+
+        
+//     }
+
+// static int reverse(int n){
+
+// if(n==0){
+//     return 0;
+// }
+
+
+// int digit=n%10;
+// System.out.print(digit);
+// return reverse(n/10);
+
+
+// }
+
+// }
