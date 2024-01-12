@@ -1,14 +1,4 @@
-//Basics
-
-// public class basics{
-
-
-//     public static void main(String Args[]){
-
-
-        
-//     }
-// }
+// public class basics{public static void main(String Args[]){  } }
 
 
 // import java.util.ArrayList;
@@ -289,8 +279,8 @@
 //Lowest Common Multiple
 // public class basics{
 //     public static void main(String Args[]){
-// int a =12;
-// int b=14;
+// int a =6;
+// int b=12;
 // lcm(a, b);
 //    }
 // static void lcm(int a,int b){
@@ -305,6 +295,7 @@
 // System.out.println(lcm);
 // }
 // }
+
 
 
 
@@ -731,3 +722,74 @@
 // }
 
 // }
+
+
+
+
+    //calculate length of string using recursion
+   /* public class basics{
+
+
+       public static void main(String Args[]){
+
+    String str="hello";
+    System.out.println(calc(str));
+            calcc(str);
+        }
+    //recursion
+        static int calc(String str){
+            if(str.equals("")) return 0;
+            return calc(str.substring(1))+1;
+        }
+
+
+    //loop
+    static void calcc(String str){
+        int count=0;
+    for(int i=0;i<str.length();i++){
+    count++;
+    }
+    System.out.println(count);
+
+
+
+    }    
+
+    }
+    */
+
+
+// //last non zero digit of a factorial number: 
+
+// public class basics{
+    
+//     public static void main(String Args[]){  
+// int a=5;
+// calc(a);
+// // System.out.println(calc(a));
+// }
+
+// static int factorial(int n){
+
+//     if(n==0)return 1;
+//     return n*factorial(n-1);
+// }
+
+// static void calc(int n){
+//     int fact=factorial(n);
+//     System.out.println(fact);
+
+//     while (fact>0) {
+//         int digit=fact%10;
+//         if (digit!=0) {
+//             System.out.println(digit);
+//             break;
+//         }
+//         fact=fact/10;
+        
+//     }
+    
+// } 
+
+// }
+
