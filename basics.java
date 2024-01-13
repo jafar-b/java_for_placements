@@ -788,8 +788,99 @@
 //         fact=fact/10;
         
 //     }
-    
 // } 
+// }
+
+//largest element in an array using recursion:
+// public class basics {
+//     public static void main(String Args[]) {
+
+//         int arr[] = new int[] { 1, 2, 3, 4, 45, 5, 6, 7, 8, 9 };
+//         // check(arr,0);
+// System.out.println(check(arr, arr.length));
+//     }
+
+//     static int check(int arr[],int n) {
+//         if (n == 0) {
+//             return arr[1];
+//         }
+//         return Math.max(arr[n - 1], check(arr, n - 1));
+// }
+// }
+
+//smallest element in an array :
+
+
+// public class basics {
+//     public static void main(String Args[]) {
+//         int a[] = new int[] {35, 2, 3, 4, 5, 65, 7 };
+
+//         System.out.println(check(a,a.length));
+//     }
+
+//     static int check(int a[],int n) {
+  
+//         if (n==0) {
+//             return a[0];
+//         }
+
+//         return Math.min(a[n-1],check(a,n-1));
+//     }
 
 // }
 
+
+
+
+//smallest and largest element in an array:
+
+
+// public class basics {
+//     public static void main(String Args[]) {
+//         int arr[] = new int[] {  2, 3, 4, 5, 6, 7 };
+// check(arr);
+//     }
+
+//     static void check(int arr[]) {
+
+//         int max = 0;
+//         int min = arr[0];
+//         for (int i = 0; i < arr.length; i++) {
+//             if (arr[i] > max)
+//                 max = arr[i];
+//             // min = max;
+//             if (min > arr[i]) min = arr[i];
+//         }
+//         System.out.println(max + " " + min);
+//     }
+// }
+
+
+// //second smallest element in an array:
+
+// public class basics {
+//     public static void main(String Args[]) {
+//         int arr[] = new int[] { 1, 2, 3, 4, 5, 5, 6, 7, 8 };
+//         check(arr);
+
+//     }
+
+//     static void check(int arr[]) {
+//         int second = arr[0];
+//         int smallest = arr[0];
+//         for (int i = 0; i < arr.length; i++) {
+//             if (smallest > arr[i])
+//                 smallest = arr[i];
+
+//         }
+//         System.out.println("smallest: " + smallest);
+
+
+//         for (int i = 0; i < arr.length; i++) {
+//             if (arr[i] != smallest && arr[i]< second ) {
+//                 System.out.println(arr[i]);
+//             }
+//         }
+//         System.out.println("second: " + second);
+//     }
+// } //todo
