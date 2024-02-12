@@ -908,3 +908,41 @@
 //     }
 // }
 
+//sorting elements of an array by frequency
+public class basics {
+    public static void main(String Args[]) {
+        int arr[] = {1,2,3,161,172, 1221 ,123};
+        palindrome(arr);
+
+    }
+    
+    static boolean pal(int a) {
+        int temp = a;
+        int reverse = 0;
+        while (temp > 0) {
+            int digit = temp % 10;
+            reverse = reverse *10+(digit);
+            temp = temp / 10;
+        }
+        if (reverse == a) {
+            return true;
+        }
+        return false;
+    }
+
+static void palindrome(int []arr){
+    int max = 0;
+
+    for (int i = 0; i < arr.length; i++) {
+            
+        if (pal(arr[i]) == true) {
+            // System.out.println(arr[i]);
+            max = arr[i];
+        }
+            
+    }
+    System.out.println(max);
+    }
+
+}
+
