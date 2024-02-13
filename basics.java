@@ -1,6 +1,5 @@
 // public class basics{public static void main(String Args[]){  } }
 
-
 // import java.util.ArrayList;
 
 // public class basics {
@@ -256,8 +255,6 @@
 
 // }
 
-
-
 //Greatest Common Divisor
 // public class basics{
 // public static void main(String Argsp[]){
@@ -296,25 +293,19 @@
 // }
 // }
 
-
-
-
 // //decimal to binary:
 // public class basics{
-
 
 //     public static void main(String Args[]){
 //         String str="1110";
 //         System.out.println("in Binary: "+str); int n=Integer.parseInt(str, 2); System.out.println("in Decimal: "+n);
-        
+
 //     }
 // }
 
 //OR
 
-
 // public class basics{
-
 
 //     public static void main(String Args[]){
 
@@ -340,13 +331,11 @@
 
 //octal to decimal
 
-
 // public class basics{
 // public static void main(String Args[]){
 // int a=1101;
 // convert(a);
 //     }
-
 
 // static void convert(int octal){
 //     int decimal=0;
@@ -360,10 +349,8 @@
 //     }
 //     System.out.println(decimal);
 
-
 // }
 // }
-
 
 //hexadecimal to decimal conversion
 
@@ -373,10 +360,9 @@
 
 // 		int x=Integer.parseInt(n,16);
 // 		System.out.println(x);
-        
+
 //     }
 // }
-
 
 // //decimal to binary conversion
 // public class basics{
@@ -394,13 +380,11 @@
 // n/=2;
 // }
 
-
 // for(int j=arr.length-1;j>=0;j--){
 // 	System.out.print(arr[j]+", ");
 // }
 // }
 // }
-
 
 // /decimal to octal conversion
 
@@ -408,7 +392,7 @@
 //     public static void main(String Args[]){
 // int a=214;
 // convert(a);
-        
+
 //     }
 
 // 	static void convert(int decimal){
@@ -428,7 +412,6 @@
 // 	}
 // }
 
-
 // //decimal to hexadecimal
 
 // public class basics{
@@ -436,7 +419,6 @@
 // int a=1457;
 // convert(a);
 
-        
 //     }
 
 // static void convert(int decimal){
@@ -468,7 +450,7 @@
 // 		case 15:
 // 		System.out.print("F ");			
 // 			break;
-		
+
 // 		default:
 // 		System.out.print(arr[j]+" ");
 // 			break;
@@ -476,7 +458,6 @@
 // }
 // 	}
 // }
-
 
 //convert all zeros to one's in a given number
 
@@ -486,7 +467,6 @@
 // System.out.println(replace(n));
 // // 1234
 // }
-
 
 // static int replace(int n){
 //     if(n==0)return 0;
@@ -498,8 +478,6 @@
 // }
 // }
 
-
-
 //CAlculate the area of a circle
 
 // public class basics{
@@ -510,7 +488,6 @@
 // calc(a);
 //     }
 
-
 //     static void calc(int n){
 
 //  double area=3.14*(n*n);
@@ -518,17 +495,14 @@
 //     }
 // }
 
-
 //prime numbers from 1 to 100
 // public class basics{
-
 
 //     public static void main(String Args[]){
 
 //         System.out.println("Hello");
 // int n=100;
 // check(n);
-
 
 // for(int i=1;i<n;i++){
 //     boolean a=check(i);
@@ -550,22 +524,19 @@
 //             }
 //         }
 //         return true;
-        
+
 //     }
 // }
 
-
 //calculate the number of digits in an integer
 
-
 // public class basics{
-
 
 //     public static void main(String Args[]){
 
 // int a=1234;
 // count(a);
-        
+
 //     }
 
 //     static void count(int n){
@@ -581,7 +552,6 @@
 //     }
 // }
 
-
 //digits to words of a given number
 // import java.util.ArrayList;
 // public class basics{
@@ -589,8 +559,6 @@
 // int number=9999;
 // whatis(number);
 //     }
-
-
 
 //     static void whatis(int n){
 
@@ -630,28 +598,7 @@
 //     }
 // }
 
-
-
-
-
-
-
-
-
-
-
-
 //Codes for Recursion
-
-
-
-
-
-
-
-
-
-
 
 //finding power of a number
 
@@ -671,13 +618,9 @@
 // }
 // }
 
-
-
 //largest element in an array
 
-
 // public class basics{
-
 
 //     public static void main(String Args[]){
 
@@ -696,15 +639,12 @@
 // }
 // }
 
-
-
 //reverse a number
 // public class basics{
 //public static void main(String Args[]){
 // int a=1234; //4321
 // reverse(a);
 
-        
 //     }
 
 // static int reverse(int n){
@@ -713,56 +653,50 @@
 //     return 0;
 // }
 
-
 // int digit=n%10;
 // System.out.print(digit);
 // return reverse(n/10);
 
-
 // }
 
 // }
 
+//calculate length of string using recursion
+/* public class basics{
+
+
+    public static void main(String Args[]){
+
+ String str="hello";
+ System.out.println(calc(str));
+         calcc(str);
+     }
+ //recursion
+     static int calc(String str){
+         if(str.equals("")) return 0;
+         return calc(str.substring(1))+1;
+     }
+
+
+ //loop
+ static void calcc(String str){
+     int count=0;
+ for(int i=0;i<str.length();i++){
+ count++;
+ }
+ System.out.println(count);
 
 
 
-    //calculate length of string using recursion
-   /* public class basics{
+ }    
 
-
-       public static void main(String Args[]){
-
-    String str="hello";
-    System.out.println(calc(str));
-            calcc(str);
-        }
-    //recursion
-        static int calc(String str){
-            if(str.equals("")) return 0;
-            return calc(str.substring(1))+1;
-        }
-
-
-    //loop
-    static void calcc(String str){
-        int count=0;
-    for(int i=0;i<str.length();i++){
-    count++;
-    }
-    System.out.println(count);
-
-
-
-    }    
-
-    }
-    */
-
+ }
+ */
 
 // //last non zero digit of a factorial number: 
 
 // public class basics{
-    
+
 //     public static void main(String Args[]){  
 // int a=5;
 // calc(a);
@@ -786,7 +720,7 @@
 //             break;
 //         }
 //         fact=fact/10;
-        
+
 //     }
 // } 
 // }
@@ -810,7 +744,6 @@
 
 //smallest element in an array :
 
-
 // public class basics {
 //     public static void main(String Args[]) {
 //         int a[] = new int[] {35, 2, 3, 4, 5, 65, 7 };
@@ -819,7 +752,7 @@
 //     }
 
 //     static int check(int a[],int n) {
-  
+
 //         if (n==0) {
 //             return a[0];
 //         }
@@ -829,11 +762,7 @@
 
 // }
 
-
-
-
 //smallest and largest element in an array:
-
 
 // public class basics {
 //     public static void main(String Args[]) {
@@ -855,7 +784,6 @@
 //     }
 // }
 
-
 // //second smallest element in an array:
 
 // public class basics {
@@ -875,7 +803,6 @@
 //         }
 //         System.out.println("smallest: " + smallest);
 
-
 //         for (int i = 0; i < arr.length; i++) {
 //             if (arr[i] != smallest && arr[i]< second ) {
 //                 System.out.println(arr[i]);
@@ -884,7 +811,6 @@
 //         System.out.println("second: " + second);
 //     }
 // } //todo
-
 
 // //frequency of elements in an array
 // public class basics {
@@ -897,7 +823,7 @@
 
 //     static void freqcount(int[] arr) {
 //         for (int i = 0; i < arr.length; i++) {
-            
+
 //             int count = 1;
 //             while (i < arr.length - 1 && arr[i] == arr[i + 1]) {
 //                 count++;
@@ -915,7 +841,7 @@
 //         palindrome(arr);
 
 //     }
-    
+
 //     static boolean pal(int a) {
 //         int temp = a;
 //         int reverse = 0;
@@ -934,18 +860,17 @@
 //     int max = 0;
 
 //     for (int i = 0; i < arr.length; i++) {
-            
+
 //         if (pal(arr[i]) == true) {
 //             // System.out.println(arr[i]);
 //             max = arr[i];
 //         }
-            
+
 //     }
 //     System.out.println(max);
 //     }
 
 // }
-
 
 //counting all the distinct values in an array
 
@@ -970,9 +895,63 @@
 //             } else {
 //                 map.put(arr[i], 1);
 //             }
-            
+
 //         }
 // System.out.println(map.size());
 
 //     }
+// }
+
+//finding repeating elements in an array  
+// METHOD 1: using for loops
+// public class basics {
+//     public static void main(String Args[]) {
+//         int arr[] = { 1, 2, 2, 3, 3, 4, 5, 6 };
+//         countre(arr);
+
+//     }
+
+//     static void countre(int[] arr) {
+
+//         int count = 0;
+//         for (int i = 0; i < arr.length; i++) {
+//             for (int j = i+1; j < arr.length; j++) {
+//                 if (arr[i] == arr[j]) {
+//                     System.out.println(arr[i]);
+//                 }
+//             }
+//         }
+
+//     }
+
+// }
+//METHOD 2: using HashMap
+
+// import java.util.HashMap;
+
+// public class basics {
+//     public static void main(String Args[]) {
+
+//         int arr[] = { 1, 2, 2, 3, 4, 4, 5, 6 };
+//         countre(arr);
+//     }
+    
+//     static void countre(int[] arr) {
+//         int count = 0;
+//         HashMap<Integer,Integer> map = new HashMap<>();   
+//         for (int i = 0; i < arr.length; i++) {
+
+//             if (map.containsKey(arr[i])) {
+//                 map.put(arr[i], map.get(arr[i]) + 1);
+//             } else {
+//                 map.put(arr[i], 1);
+//             }
+//             if (map.get(arr[i]) > 1) {
+//                 System.out.print(arr[i]+" ");
+//             }
+
+//         }
+
+//     }
+
 // }
