@@ -908,41 +908,71 @@
 //     }
 // }
 
-//sorting elements of an array by frequency
-public class basics {
-    public static void main(String Args[]) {
-        int arr[] = {1,2,3,161,172, 1221 ,123};
-        palindrome(arr);
+// //sorting elements of an array by frequency
+// public class basics {
+//     public static void main(String Args[]) {
+//         int arr[] = {1,2,3,161,172, 1221 ,123};
+//         palindrome(arr);
 
-    }
+//     }
     
-    static boolean pal(int a) {
-        int temp = a;
-        int reverse = 0;
-        while (temp > 0) {
-            int digit = temp % 10;
-            reverse = reverse *10+(digit);
-            temp = temp / 10;
-        }
-        if (reverse == a) {
-            return true;
-        }
-        return false;
-    }
+//     static boolean pal(int a) {
+//         int temp = a;
+//         int reverse = 0;
+//         while (temp > 0) {
+//             int digit = temp % 10;
+//             reverse = reverse *10+(digit);
+//             temp = temp / 10;
+//         }
+//         if (reverse == a) {
+//             return true;
+//         }
+//         return false;
+//     }
 
-static void palindrome(int []arr){
-    int max = 0;
+// static void palindrome(int []arr){
+//     int max = 0;
 
-    for (int i = 0; i < arr.length; i++) {
+//     for (int i = 0; i < arr.length; i++) {
             
-        if (pal(arr[i]) == true) {
-            // System.out.println(arr[i]);
-            max = arr[i];
-        }
+//         if (pal(arr[i]) == true) {
+//             // System.out.println(arr[i]);
+//             max = arr[i];
+//         }
             
-    }
-    System.out.println(max);
-    }
+//     }
+//     System.out.println(max);
+//     }
 
-}
+// }
 
+
+//counting all the distinct values in an array
+
+// import java.util.HashMap;
+
+// public class basics {
+
+//     public static void main(String Args[]) {
+//         int arr[] = { 1, 2,2,3,4,7,7 };
+//         countdis(arr);
+
+//     }
+
+//     static void countdis(int arr[]) {
+//         int n = arr.length;
+//         int count = 0;
+
+//         HashMap<Integer, Integer> map = new HashMap<>();
+//         for (int i = 0; i < arr.length; i++) {
+//             if (map.containsKey(arr[i])) {
+//                 map.put(arr[i], map.get(arr[i] + 1));
+//             } else {
+//                 map.put(arr[i], 1);
+//             }
+            
+//         }
+// System.out.println(map.size());
+
+//     }
+// }
