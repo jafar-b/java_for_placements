@@ -955,3 +955,81 @@
 //     }
 
 // }
+
+
+
+
+//minimum scalar of two vectors
+// public class basics{
+//     public static void main(String Args[]){
+//         int arr[]={1,2,3,4,6};
+//       int arr2[]={5,4,3,2,1};
+//       sort(arr, arr2);
+        
+//     } 
+    
+//     //sorting function
+//     static void sort(int arr[],int[] arr2){
+// for(int i=0;i<arr.length;i++){
+//     //sorting in ascending
+//     for (int j = i+1; j < arr.length; j++) {
+//         if(arr[i]>arr[j]){
+//             int temp=arr[i];
+//             arr[i]=arr[j];
+//             arr[j]=temp;
+//         }
+//     }
+// }
+
+
+// //sorting in descending
+
+// for (int i = 0; i < arr2.length; i++) {
+//     for (int j = 0; j < arr2.length; j++) {
+//         if(arr2[i]>arr2[j]){
+//             int temp=arr2[i];
+//             arr2[i]=arr2[j];
+//             arr2[j]=temp;
+//         }
+//     }
+// }    
+
+
+// int sum=0;
+// for (int i = 0; i < arr.length; i++) {
+// sum+=arr[i]*arr2[i];    
+// }
+// System.out.println(sum);
+
+// }
+//   }
+
+
+
+//number of even-odd elements in an array
+
+// public class basics{
+//     public static void main(String Args[]){  
+// int[] arr={1,2,3,4,5,6,7,8,9,10,11};
+// find(arr);
+
+
+//     }
+// static void find(int arr[]){
+//     int even=0;
+//     int odd=0;
+//     for (int i = 0; i < arr.length; i++) {
+//         if(arr[i]%2==0){
+//             even=even+1;}
+//     else{
+//         odd++;
+//     }
+// }
+// System.out.println("Even= "+even);
+// System.out.println("Odd= "+odd);
+
+// }
+// }
+
+
+
