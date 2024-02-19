@@ -935,7 +935,7 @@
 //         int arr[] = { 1, 2, 2, 3, 4, 4, 5, 6 };
 //         countre(arr);
 //     }
-    
+
 //     static void countre(int[] arr) {
 //         int count = 0;
 //         HashMap<Integer,Integer> map = new HashMap<>();   
@@ -956,18 +956,15 @@
 
 // }
 
-
-
-
 //minimum scalar of two vectors
 // public class basics{
 //     public static void main(String Args[]){
 //         int arr[]={1,2,3,4,6};
 //       int arr2[]={5,4,3,2,1};
 //       sort(arr, arr2);
-        
+
 //     } 
-    
+
 //     //sorting function
 //     static void sort(int arr[],int[] arr2){
 // for(int i=0;i<arr.length;i++){
@@ -981,7 +978,6 @@
 //     }
 // }
 
-
 // //sorting in descending
 
 // for (int i = 0; i < arr2.length; i++) {
@@ -994,7 +990,6 @@
 //     }
 // }    
 
-
 // int sum=0;
 // for (int i = 0; i < arr.length; i++) {
 // sum+=arr[i]*arr2[i];    
@@ -1004,15 +999,12 @@
 // }
 //   }
 
-
-
 //number of even-odd elements in an array
 
 // public class basics{
 //     public static void main(String Args[]){  
 // int[] arr={1,2,3,4,5,6,7,8,9,10,11};
 // find(arr);
-
 
 //     }
 // static void find(int arr[]){
@@ -1032,4 +1024,59 @@
 // }
 
 
+//balanced parenthesis problem
 
+import java.util.Stack;
+
+public class basics{
+    public static void main(String Args[]){
+        String str="((())))";
+    check(str); 
+    } 
+
+    static void check(String str){
+Stack stack=new Stack<>();
+
+for (int i = 0; i < str.length(); i++) {
+  
+   char ch=str.charAt(i);
+   if(ch=='(' || ch=='{' || ch=='['){
+stack.push(ch);
+   }
+   
+   switch (ch) {
+    case ')':
+        stack.pop();
+if(ch=='{' ||ch=='['){
+    return;
+}
+        break;
+        case '{':
+        stack.pop();
+if(ch=='(' ||ch=='['){
+    return;
+}
+        break;
+        case ']':
+        stack.pop();
+if(ch=='{' ||ch=='('){
+    return;
+}
+        break;
+    default:
+        break;
+   }
+
+
+};
+
+if(stack.isEmpty()){
+    System.out.println("Balanced");
+    return;
+}else{
+    System.out.println("Not Balanced");
+    return;
+}
+}
+
+    }
