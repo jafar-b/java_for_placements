@@ -1023,60 +1023,43 @@
 // }
 // }
 
+//STRING OPERATIONS
+//Removing vowels from a string
 
-//balanced parenthesis problem
+// public class basics{
+//     public static void main(String Args[]){
+//         String str="zafar";
+//         remove(str);
+//     }
+    
+//     static void remove(String str){
+//         char vowels[]={'a','e','i','o','u'};
+//     for(int i=0;i<str.length();i++){
+//     for (int j = 0; j < vowels.length; j++) {
+    
+//     if(str.charAt(i)==vowels[j]){
+        
+// str=str.replace(str.charAt(i),' ');
+//     }
+// }
+// }
+// System.out.println(str);
+//     }
+//     }
 
-import java.util.Stack;
-
-public class basics{
-    public static void main(String Args[]){
-        String str="((())))";
-    check(str); 
-    } 
-
-    static void check(String str){
-Stack stack=new Stack<>();
-
-for (int i = 0; i < str.length(); i++) {
-  
-   char ch=str.charAt(i);
-   if(ch=='(' || ch=='{' || ch=='['){
-stack.push(ch);
-   }
-   
-   switch (ch) {
-    case ')':
-        stack.pop();
-if(ch=='{' ||ch=='['){
-    return;
-}
-        break;
-        case '{':
-        stack.pop();
-if(ch=='(' ||ch=='['){
-    return;
-}
-        break;
-        case ']':
-        stack.pop();
-if(ch=='{' ||ch=='('){
-    return;
-}
-        break;
-    default:
-        break;
-   }
+// public class basics{
+//     public static void main(String Args[]){
+// String str="zafar";
+// remove(str);
+//       } 
+    
+//     static void remove(String str){
+//         str=str.replaceAll("[aeiou]", "");
+//         System.out.println(str);
+//     }
+//     }
 
 
-};
 
-if(stack.isEmpty()){
-    System.out.println("Balanced");
-    return;
-}else{
-    System.out.println("Not Balanced");
-    return;
-}
-}
+// public class basics{public static void main(String Args[]){  } }
 
-    }
