@@ -1061,5 +1061,66 @@
 
 
 
-// public class basics{public static void main(String Args[]){  } }
+//counting strlen without using the function
+
+// public class basics {
+//     public static void main(String Args[]) {
+
+//         String str = "helloworld";
+//         count(str);
+//       } 
+
+//       static void count(String str) {
+//           int count = 0;
+//           for (char c : str.toCharArray()) {
+//               count++;
+//           }
+
+//           System.out.println(count);
+//       }
+
+//     }
+
+// //checking if the character is palindrome or not
+
+// public class basics {
+//     public static void main(String Args[])  {
+//     String str="aamaa";
+//     check(str);   
+
+//       }
+
+//     static void check(String str) {
+
+//         String reverse = "";
+//         for (int i = str.length()-1; i >= 0; i--) {
+//             reverse = reverse + str.charAt(i);
+// System.out.println(reverse);
+//         }
+// if (reverse.equals(str))  {
+//     System.out.println("Palindrome");
+// } 
+
+//     }
+
+//     }
+
+
+//remove spaces from string
+
+// public class basics { 
+//     public static void main(String Args[]) {
+
+//         String str = "Hello world";
+    
+//     rem(str);
+//     }
+
+//     static void rem(String str) {
+    
+//         str = str.replaceAll(" ", "");
+//         System.out.println(str);
+// }
+
+// }
 
