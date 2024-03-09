@@ -1124,3 +1124,24 @@
 
 // }
 
+//replacing substring inside a string
+
+// public class basics {
+//     public static void main(String Args[]) {
+//         String str = "Hello world";
+//         replace(str);
+//     };
+
+//     static void replace(String str) {
+//         String toReplace="world";
+//         String replacement = "Java";
+//         str = str.replaceAll(toReplace, replacement);
+
+//         System.out.println(str);
+//     }
+
+// }
+
+
+
+public class basics{public static void main(String Args[]){  } }
