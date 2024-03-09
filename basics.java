@@ -1143,5 +1143,39 @@
 // }
 
 
+//sorting all the negative elements to one side of array
+// public class basics {
+//     public static void main(String Args[]) {
+//         int arr[] = { 1, 2, 3, 4, 5, -1, -2, -4 };
+//         run(arr);
 
-public class basics{public static void main(String Args[]){  } }
+//     }
+
+//     static void run(int arr[]) {
+
+//         for (int i = 0; i < arr.length; i++) {
+//             for (int j = i + 1; j < arr.length; j++) {
+//                 if (arr[i] > arr[j]) {
+//                     int temp = arr[i];
+//                     arr[i] = arr[j];
+//                     arr[j] = temp;
+//                 }
+//             }
+//         }
+
+//         for (int i = 0; i < arr.length; i++) {
+//             System.out.print(arr[i]);
+
+//         }
+//     }
+
+// }
+
+
+
+public class basics {
+    public static void main(String Args[]) {
+
+        
+    }
+}
