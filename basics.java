@@ -1172,10 +1172,33 @@
 // }
 
 
+// //Largest sum contiguous subarray
+// public class basics {
+//     public static void main(String Args[]) {
+//         int arr[] = { 5,-4,-2,6,-1};
+//         find(arr);
+//     }
 
-public class basics {
-    public static void main(String Args[]) {
+//     static void find(int arr[]) {
+//         int maxsum = 0;
+//         int currsum = 0;
 
-        
-    }
-}
+//         for (int i = 0; i < arr.length; i++) {
+//             currsum = currsum + arr[i];
+//             if (currsum > maxsum) {
+//                 maxsum = currsum;
+//             }
+//             if (currsum < 0) {
+//                 currsum = 0;
+//             }
+
+//         }
+//         System.out.println(maxsum);
+
+// }
+
+// }
+
+
+
+// public class basics{public static void main(String Args[]){  } }
