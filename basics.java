@@ -1305,3 +1305,69 @@
 // return longestStreak;
 // }
 // }
+
+
+//Median of two sorted arrays of equal size
+// Input : arr1[5] = {1, 12, 15, 26, 38}
+//              arr2[5] = {2, 13, 17, 30, 45}
+// Output : 16
+// Explanation : After merging the array will be {1, 2, 12, 13, 15, 17, 26, 30, 38, 45}, middle elements are 15 and 17
+// so, median of the given array will be ((15+17)/2)=16.
+// public class basics {
+//     public static void main(String Args[]) {
+//         int arr[] = { 60,50,40,30,20,10 };
+//         int arr2[] = { 70, 80, 90,  110, 120,130 };
+
+//         find(arr, arr2);
+//     }
+    
+//     static void find(int[] arr, int[] arr2) {
+        
+//         int arr3[] = new int[arr.length+arr2.length];
+//         //sorting arr:
+//         for (int i = 0; i < arr.length; i++) {
+//             for (int j = i + 1; j < arr.length; j++) {
+//                 if (arr[i] > arr[j]) {
+//                     int temp = arr[i];
+//                     arr[i] = arr[j];
+//                     arr[j] = temp;
+//                 }
+//             }
+//         }
+// //sorting second array:
+//         for (int i = 0; i < arr2.length; i++) {
+//             for (int j = i + 1; j < arr2.length; j++) {
+//                 if (arr2[i] > arr2[j]) {
+//                     int temp = arr2[i];
+//                     arr2[i] = arr2[j];
+//                     arr2[j] = temp;
+//                 }
+//             }
+//         }
+//         int pos = 0;
+//         //merging two arrays:
+//         for (int i : arr) {
+//             arr3[pos] = i;
+//             pos++;
+//         }
+//         for (int i : arr2) {
+//             arr3[pos] = i;
+//             pos++;
+//         }
+//         int median = (arr3.length/2);
+//         if (arr3.length % 2 == 0) {
+//             median = (arr3[arr3.length / 2 - 1] + arr3[arr3.length / 2]) / 2;
+            
+//         } else {
+//             median = arr3[arr3.length / 2];
+//         }
+        
+// System.out.println(median);
+// System.out.println(arr3.length);
+// for (int i = 0; i < arr3.length; i++) {
+//     System.out.print(arr3[i]+", ");
+// }
+
+
+//     }
+// }
