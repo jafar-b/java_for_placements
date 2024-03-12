@@ -1229,3 +1229,74 @@
 //         }
 // }
 // }
+
+//Finding common elements from 3 arrays
+
+// public class basics{
+//     public static void main(String Args[]) {
+
+//         int arr[] = { 1, 2, 3, 4,};
+//         int arr2[] = { 1, 2, 3, 5, 6, 7, 8, 9 };
+//         int arr3[] = { 1, 2,3, 12, 143, 14, 16, 17, 17, 18 };
+//         findcommon(arr, arr2,arr3);
+//     }
+
+//     static void findcommon(int arr[], int arr2[], int arr3[]) {
+//         for (int i = 0; i < arr.length; i++) {
+//             for (int j = 0; j < arr2.length; j++) {
+//                 for (int j2 = 0; j2 < arr3.length; j2++) {
+//                     if (arr[i] == arr2[j] && arr[i] == arr3[j2]) {
+//                         System.out.print(arr[i]+", ");
+//                     }
+//                 }
+//             }
+         
+//         }
+
+//     }
+    
+// }
+//other method would be creating a temp_array to store common element from arr && arr2 and the temp_array will again be checked with arr3 for common elements and the result will be displayed.
+//this will involve 4 forloops (for 4 arrays and time and space complexity will be higher 
+//therefore we took the path of 3 forloops and no temp_array thereby reducing time and space complexity. 
+
+
+
+//program to find the longest consecutive subsequence
+// import java.util.HashSet;
+// import java.util.Set;
+
+// public class basics {
+
+//     public static void main(String[] args) {
+//         int[] nums = { 100, 4, 200, 1, 3, 2 };
+//         System.out.println("Length of the longest consecutive subsequence is: " + find(nums));
+
+//     }
+
+//     static int find(int arr[])
+//     {
+//         int longestStreak = 0;
+    
+//         Set<Integer> set = new HashSet<>();
+//         for (int i : arr) {
+//             set.add(i);
+//         }
+
+//         for (int num : set) {
+//             if (!set.contains(num - 1)) {
+//                 int currStreak = 1;
+//                 int currNum = num;
+
+//                 while (set.contains(currNum + 1)) {
+//                     currStreak += 1;
+//                     currNum += 1;
+//                 }
+//                 ;
+//                 longestStreak = Math.max(longestStreak, currStreak);
+//             }
+//         }
+//         return longestStreak;
+// }  
+// }
+
