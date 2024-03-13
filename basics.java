@@ -1306,7 +1306,6 @@
 // }
 // }
 
-
 //Median of two sorted arrays of equal size
 // Input : arr1[5] = {1, 12, 15, 26, 38}
 //              arr2[5] = {2, 13, 17, 30, 45}
@@ -1320,9 +1319,9 @@
 
 //         find(arr, arr2);
 //     }
-    
+
 //     static void find(int[] arr, int[] arr2) {
-        
+
 //         int arr3[] = new int[arr.length+arr2.length];
 //         //sorting arr:
 //         for (int i = 0; i < arr.length; i++) {
@@ -1357,17 +1356,78 @@
 //         int median = (arr3.length/2);
 //         if (arr3.length % 2 == 0) {
 //             median = (arr3[arr3.length / 2 - 1] + arr3[arr3.length / 2]) / 2;
-            
+
 //         } else {
 //             median = arr3[arr3.length / 2];
 //         }
-        
+
 // System.out.println(median);
 // System.out.println(arr3.length);
 // for (int i = 0; i < arr3.length; i++) {
 //     System.out.print(arr3[i]+", ");
 // }
 
+//     }
+// }
 
+//Matrices
+//2D ARRAYS
+// public class basics{
+
+//     public static void main(String Args[]){ 
+//         int arr[][] = { { 1, 2, 3 }, { 4, 5, 6 } };
+//         for (int i = 0; i < arr.length; i++) {
+//             for (int j = 0; j < arr[i].length; j++) {
+//                 System.out.print(arr[i][j]);
+//                 System.out.print(" ");
+//             }
+//             System.out.println();
+//         }
+// } 
+
+// }
+//output:
+// 1 2 3
+// 4 5 6
+
+//largest element in the matrix
+// public class basics {
+//     public static void main(String Args[]) {
+
+//         int[][] arr = { { 1, 2, 3 }, { 4, 5, 6 } };
+//         int max = 0;
+//         for (int i = 0; i < arr.length; i++) {
+//             max = arr[0][0];
+//             for (int j = 0; j < arr[i].length; j++) {
+//                 if (arr[i][j] > max) {
+//                     max = arr[i][j];
+//                 }
+//             }
+//         }
+//         System.out.println(max);
+//     }
+
+// }
+
+
+//largest element in every row:
+// import java.util.Arrays;
+
+// public class basics {
+//     public static void main(String Args[]) {
+//         int[][] arr = { { 1, 2, 3 }, { 4, 5, 6,9 } };
+//         int maxelements[]=new int[arr.length];
+
+//         for (int i = 0; i < arr.length; i++) {
+//             int max = 0;
+//             for (int j = 0; j < arr[i].length; j++) {
+//                 if (max < arr[i][j]) {
+//                     max = arr[i][j];
+//                 }
+
+//             }
+//             maxelements[i] = max;
+//         }
+//         System.out.println(Arrays.toString(maxelements));
 //     }
 // }
