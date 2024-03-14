@@ -1483,9 +1483,33 @@
 // //     System.out.print(temp[i]+" ");
 // // }
 //     }
-    
 
 // }
 
+//Finding row with maximum numbner of 1s
+// public class basics {
+//     public static void main(String Args[]) {
+// int arr[][]={{1,1,1,2,1,1},
+//              {1,1,1,1,2,7},
+//              {5,3,6,2,9,8},
+// };
+// int max = 0;
+// int max_row = 0;
+// for (int i = 0; i < arr.length; i++) {
+//     int count = 0;
+//     for (int j = 0; j < arr[0].length; j++) {
+//         if (arr[i][j] == 1) {
+//             count = count + 1;
+//             if (max < count) {
+//                 max = count;
+//                 max_row = i;
+//             }
+//         }
+//     }
 
+// }
+// System.out.println("Max row= "+ (max_row+1));
 
+//     }
+
+// }
