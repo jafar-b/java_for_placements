@@ -1409,7 +1409,6 @@
 
 // }
 
-
 //largest element in every row:
 // import java.util.Arrays;
 
@@ -1431,3 +1430,62 @@
 //         System.out.println(Arrays.toString(maxelements));
 //     }
 // }
+
+// public class basics {
+
+//     public static void main(String Args[]) {
+//         int arr[][] = { { 5, 4, 7 },
+//                 { 1, 3, 8 },
+//                 { 2, 9, 6 } };
+//         sort(arr);
+//     }
+
+//     static void sort(int[][] arr) {
+
+//         // temporary
+//         int temp[] = new int[arr.length * arr[0].length];
+//         // copying the elements from matrix into temp array:
+//         int k = 0;
+//         for (int i = 0; i < arr.length; i++) {
+//             for (int j = 0; j < arr[i].length; j++) {
+//                 temp[k++] = arr[i][j];
+//             }
+//         }
+
+//         //sorting the temp array 
+//         for (int i = 0; i < temp.length; i++) {
+//             for (int j = i + 1; j < temp.length; j++) {
+//                 if (temp[i] > temp[j]) {
+//                     // temp=a
+//                     // a = b;
+//                     // b=temp;  
+//                     int temp_var = temp[i];
+//                     temp[i] = temp[j];
+//                     temp[j] = temp_var;
+//                 }
+//             }
+//         }
+//         //placing the sorted elements in matrix
+//         k = 0;
+//         for (int i = 0; i < arr.length; i++) {
+//             for (int j = 0; j < arr[0].length; j++) {
+//                 arr[i][j] = temp[k++];
+//             }
+//         }
+// //printing the matrix
+//         for (int i = 0; i < arr.length; i++) {
+//            for (int j = 0; j < arr[0].length; j++) {
+//              System.out.print(arr[i][j]+", ");
+//            }
+//         }
+
+// // for (int i = 0; i < temp.length; i++) {
+// //     System.out.print(temp[i]+" ");
+// // }
+//     }
+    
+
+// }
+
+
+
