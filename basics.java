@@ -1513,3 +1513,44 @@
 //     }
 
 // }
+
+
+//common element in all rows of a given matrix
+
+// import java.util.Map;
+// import java.util.HashMap;
+
+// public class basics {
+//     public static void main(String Args[]) {
+//         int arr[][] = { { 1, 2, 3 },
+//                 { 2, 3, 6 },
+//                 { 2, 3, 9 },
+//         };
+//         find(arr);
+//     }
+    
+//     static void find(int arr[][]) {
+//         Map<Integer,Integer> map = new HashMap<Integer,Integer>();
+
+//         int count = 1;
+//         int maxnum = 0;
+//         for (int j = 0; j < arr[0].length; j++) {
+//             map.put(arr[0][j], count);
+//         }
+//         for (int i = 1; i < arr.length; i++) {
+//             for (int j = 0; j < arr[1].length; j++) {
+//                 if (map.get(arr[i][j]) != null && map.get(arr[i][j]) == i) {
+//                     map.put(arr[i][j], i + 1);
+//                     if (i == arr.length - 1)
+//                         System.out.print(arr[i][j] + " ");
+//                 }
+
+//                 }
+              
+//             }
+        
+        
+    
+//     }
+    
+// }
