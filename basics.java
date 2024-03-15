@@ -1514,7 +1514,6 @@
 
 // }
 
-
 //common element in all rows of a given matrix
 
 // import java.util.Map;
@@ -1528,7 +1527,7 @@
 //         };
 //         find(arr);
 //     }
-    
+
 //     static void find(int arr[][]) {
 //         Map<Integer,Integer> map = new HashMap<Integer,Integer>();
 
@@ -1546,11 +1545,11 @@
 //                 }
 
 //                 }
-              
+
 //             }
-        
-        
-    
+
 //     }
-    
+
 // }
+
+public class basics{public static void main(String Args[]){ } }
