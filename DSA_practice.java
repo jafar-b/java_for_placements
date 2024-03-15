@@ -1,8 +1,8 @@
-// public class basics{public static void main(String Args[]){ } }
+// public class DSA_practice{public static void main(String Args[]){ } }
 
 // import java.util.ArrayList;
 
-// public class basics {
+// public class DSA_practice {
 
 // public static void main(String args[]) {
 // int sum = 0;
@@ -21,7 +21,7 @@
 // }
 
 // //greatest of three numbers
-// public class basics
+// public class DSA_practice
 // {
 // public static void main(String Args[]) {
 // int a= 10;
@@ -35,7 +35,7 @@
 // }
 
 // //Leap year or not
-// public class basics
+// public class DSA_practice
 // {
 // public static void main(String Args[]) {
 // int year = 2024;
@@ -50,7 +50,7 @@
 
 // prime number or not
 
-// public class basics
+// public class DSA_practice
 
 // {
 // public static void main(String Args[]) {
@@ -67,7 +67,7 @@
 // }
 
 // //prime number within a given range
-// public class basics {
+// public class DSA_practice {
 // public static void main(String Args[]) {
 // int a = 2;
 // int b = 10;
@@ -89,7 +89,7 @@
 
 // sum of digits of a number.
 
-// public class basics
+// public class DSA_practice
 // {
 // public static void main(String Args[]){
 // int n = 123;
@@ -105,7 +105,7 @@
 // }
 
 // //reverse of a number
-// public class basics{
+// public class DSA_practice{
 
 // public static void main(String Args[])
 // {
@@ -123,7 +123,7 @@
 
 // OR using while loop reverse of a number
 
-// public class basics{
+// public class DSA_practice{
 
 // public static void main(String Args[])
 // {
@@ -140,7 +140,7 @@
 // }
 
 // //Palindrome check
-// public class basics{
+// public class DSA_practice{
 // public static void main(String Args[])
 // {
 // int a=12321;
@@ -162,7 +162,7 @@
 // }
 
 // //armstrong number
-// public class basics{
+// public class DSA_practice{
 
 // public static void main(String Args[]){
 // int a=371;
@@ -192,7 +192,7 @@
 
 // armstrong number in given range
 
-// public class basics {
+// public class DSA_practice {
 
 // public static void main(String Args[]) {
 
@@ -231,7 +231,7 @@
 
 // fibonacci series
 
-// public class basics {
+// public class DSA_practice {
 // public static void main(String Args[]) {
 // int n = 25;
 // fibonacci(n);
@@ -258,7 +258,7 @@
 // }
 
 // Greatest Common Divisor
-// public class basics{
+// public class DSA_practice{
 // public static void main(String Argsp[]){
 // int a=36;
 // int b=60;
@@ -276,7 +276,7 @@
 // }
 
 // Lowest Common Multiple
-// public class basics{
+// public class DSA_practice{
 // public static void main(String Args[]){
 // int a =6;
 // int b=12;
@@ -296,7 +296,7 @@
 // }
 
 // //decimal to binary:
-// public class basics{
+// public class DSA_practice{
 
 // public static void main(String Args[]){
 // String str="1110";
@@ -308,7 +308,7 @@
 
 // OR
 
-// public class basics{
+// public class DSA_practice{
 
 // public static void main(String Args[]){
 
@@ -334,7 +334,7 @@
 
 // octal to decimal
 
-// public class basics{
+// public class DSA_practice{
 // public static void main(String Args[]){
 // int a=1101;
 // convert(a);
@@ -357,7 +357,7 @@
 
 // hexadecimal to decimal conversion
 
-// public class basics{
+// public class DSA_practice{
 // public static void main(String Args[]){
 // String n="C9";
 
@@ -368,7 +368,7 @@
 // }
 
 // //decimal to binary conversion
-// public class basics{
+// public class DSA_practice{
 // public static void main(String Args[]){
 // int n=17;
 // convert(n);
@@ -391,7 +391,7 @@
 
 // /decimal to octal conversion
 
-// public class basics{
+// public class DSA_practice{
 // public static void main(String Args[]){
 // int a=214;
 // convert(a);
@@ -417,7 +417,7 @@
 
 // //decimal to hexadecimal
 
-// public class basics{
+// public class DSA_practice{
 // public static void main(String Args[]){
 // int a=1457;
 // convert(a);
@@ -464,7 +464,7 @@
 
 // convert all zeros to one's in a given number
 
-// public class basics{
+// public class DSA_practice{
 // public static void main(String Args[]){
 // int n=12001;
 // System.out.println(replace(n));
@@ -483,7 +483,7 @@
 
 // CAlculate the area of a circle
 
-// public class basics{
+// public class DSA_practice{
 
 // public static void main(String Args[]){
 
@@ -499,7 +499,7 @@
 // }
 
 // prime numbers from 1 to 100
-// public class basics{
+// public class DSA_practice{
 
 // public static void main(String Args[]){
 
@@ -533,7 +533,7 @@
 
 // calculate the number of digits in an integer
 
-// public class basics{
+// public class DSA_practice{
 
 // public static void main(String Args[]){
 
@@ -557,7 +557,7 @@
 
 // digits to words of a given number
 // import java.util.ArrayList;
-// public class basics{
+// public class DSA_practice{
 // public static void main(String Argsp[]){
 // int number=9999;
 // whatis(number);
@@ -611,7 +611,7 @@
 
 // finding power of a number
 
-// public class basics{
+// public class DSA_practice{
 // public static void main(String Args[]){
 // int a=5;
 // int order=3;
@@ -629,7 +629,7 @@
 
 // largest element in an array
 
-// public class basics{
+// public class DSA_practice{
 
 // public static void main(String Args[]){
 
@@ -649,7 +649,7 @@
 // }
 
 // reverse a number
-// public class basics{
+// public class DSA_practice{
 // public static void main(String Args[]){
 // int a=1234; //4321
 // reverse(a);
@@ -672,7 +672,8 @@
 
 // calculate length of string using recursion
 /*
- * public class basics{
+ * public class DSA_practice
+ *{
  * 
  * 
  * public static void main(String Args[]){
@@ -705,7 +706,7 @@
 
 // //last non zero digit of a factorial number:
 
-// public class basics{
+// public class DSA_practice{
 
 // public static void main(String Args[]){
 // int a=5;
@@ -736,7 +737,7 @@
 // }
 
 // largest element in an array using recursion:
-// public class basics {
+// public class DSA_practice {
 // public static void main(String Args[]) {
 
 // int arr[] = new int[] { 1, 2, 3, 4, 45, 5, 6, 7, 8, 9 };
@@ -754,7 +755,7 @@
 
 // smallest element in an array :
 
-// public class basics {
+// public class DSA_practice {
 // public static void main(String Args[]) {
 // int a[] = new int[] {35, 2, 3, 4, 5, 65, 7 };
 
@@ -774,7 +775,7 @@
 
 // smallest and largest element in an array:
 
-// public class basics {
+// public class DSA_practice {
 // public static void main(String Args[]) {
 // int arr[] = new int[] { 2, 3, 4, 5, 6, 7 };
 // check(arr);
@@ -796,7 +797,7 @@
 
 // //second smallest element in an array:
 
-// public class basics {
+// public class DSA_practice {
 // public static void main(String Args[]) {
 // int arr[] = new int[] { 1, 2, 3, 4, 5, 5, 6, 7, 8 };
 // check(arr);
@@ -823,7 +824,7 @@
 // } //todo
 
 // //frequency of elements in an array
-// public class basics {
+// public class DSA_practice {
 // public static void main(String Args[]) {
 
 // int[] arr = { 1, 2, 2, 3, 3,3,4,4,5,5,5};
@@ -845,7 +846,7 @@
 // }
 
 // //sorting elements of an array by frequency
-// public class basics {
+// public class DSA_practice {
 // public static void main(String Args[]) {
 // int arr[] = {1,2,3,161,172, 1221 ,123};
 // palindrome(arr);
@@ -886,7 +887,7 @@
 
 // import java.util.HashMap;
 
-// public class basics {
+// public class DSA_practice {
 
 // public static void main(String Args[]) {
 // int arr[] = { 1, 2,2,3,4,7,7 };
@@ -914,7 +915,7 @@
 
 // finding repeating elements in an array
 // METHOD 1: using for loops
-// public class basics {
+// public class DSA_practice {
 // public static void main(String Args[]) {
 // int arr[] = { 1, 2, 2, 3, 3, 4, 5, 6 };
 // countre(arr);
@@ -939,7 +940,7 @@
 
 // import java.util.HashMap;
 
-// public class basics {
+// public class DSA_practice {
 // public static void main(String Args[]) {
 
 // int arr[] = { 1, 2, 2, 3, 4, 4, 5, 6 };
@@ -967,7 +968,7 @@
 // }
 
 // minimum scalar of two vectors
-// public class basics{
+// public class DSA_practice{
 // public static void main(String Args[]){
 // int arr[]={1,2,3,4,6};
 // int arr2[]={5,4,3,2,1};
@@ -1011,7 +1012,7 @@
 
 // number of even-odd elements in an array
 
-// public class basics{
+// public class DSA_practice{
 // public static void main(String Args[]){
 // int[] arr={1,2,3,4,5,6,7,8,9,10,11};
 // find(arr);
@@ -1036,7 +1037,7 @@
 // STRING OPERATIONS
 // Removing vowels from a string
 
-// public class basics{
+// public class DSA_practice{
 // public static void main(String Args[]){
 // String str="zafar";
 // remove(str);
@@ -1057,7 +1058,7 @@
 // }
 // }
 
-// public class basics{
+// public class DSA_practice{
 // public static void main(String Args[]){
 // String str="zafar";
 // remove(str);
@@ -1071,7 +1072,7 @@
 
 // counting strlen without using the function
 
-// public class basics {
+// public class DSA_practice {
 // public static void main(String Args[]) {
 
 // String str = "helloworld";
@@ -1091,7 +1092,7 @@
 
 // //checking if the character is palindrome or not
 
-// public class basics {
+// public class DSA_practice {
 // public static void main(String Args[]) {
 // String str="aamaa";
 // check(str);
@@ -1115,7 +1116,7 @@
 
 // remove spaces from string
 
-// public class basics {
+// public class DSA_practice {
 // public static void main(String Args[]) {
 
 // String str = "Hello world";
@@ -1133,7 +1134,7 @@
 
 // replacing substring inside a string
 
-// public class basics {
+// public class DSA_practice {
 // public static void main(String Args[]) {
 // String str = "Hello world";
 // replace(str);
@@ -1150,7 +1151,7 @@
 // }
 
 // sorting all the negative elements to one side of array
-// public class basics {
+// public class DSA_practice {
 // public static void main(String Args[]) {
 // int arr[] = { 1, 2, 3, 4, 5, -1, -2, -4 };
 // run(arr);
@@ -1178,7 +1179,7 @@
 // }
 
 // //Largest sum contiguous subarray
-// public class basics {
+// public class DSA_practice {
 // public static void main(String Args[]) {
 // int arr[] = { 5,-4,-2,6,-1};
 // find(arr);
@@ -1205,7 +1206,7 @@
 // }
 
 // //subarray with the given sum
-// public class basics {
+// public class DSA_practice {
 // public static void main(String Args[]) {
 
 // int arr[] = { 15, 2, 4, 8, 9, 5, 10, 23};
@@ -1235,7 +1236,7 @@
 
 // Finding common elements from 3 arrays
 
-// public class basics{
+// public class DSA_practice{
 // public static void main(String Args[]) {
 
 // int arr[] = { 1, 2, 3, 4,};
@@ -1271,7 +1272,7 @@
 // import java.util.HashSet;
 // import java.util.Set;
 
-// public class basics {
+// public class DSA_practice {
 
 // public static void main(String[] args) {
 // int[] nums = { 100, 4, 200, 1, 3, 2 };
@@ -1312,7 +1313,7 @@
 // Output : 16
 // Explanation : After merging the array will be {1, 2, 12, 13, 15, 17, 26, 30, 38, 45}, middle elements are 15 and 17
 // so, median of the given array will be ((15+17)/2)=16.
-// public class basics {
+// public class DSA_practice {
 //     public static void main(String Args[]) {
 //         int arr[] = { 60,50,40,30,20,10 };
 //         int arr2[] = { 70, 80, 90,  110, 120,130 };
@@ -1372,7 +1373,7 @@
 
 //Matrices
 //2D ARRAYS
-// public class basics{
+// public class DSA_practice{
 
 //     public static void main(String Args[]){ 
 //         int arr[][] = { { 1, 2, 3 }, { 4, 5, 6 } };
@@ -1391,7 +1392,7 @@
 // 4 5 6
 
 //largest element in the matrix
-// public class basics {
+// public class DSA_practice {
 //     public static void main(String Args[]) {
 
 //         int[][] arr = { { 1, 2, 3 }, { 4, 5, 6 } };
@@ -1412,7 +1413,7 @@
 //largest element in every row:
 // import java.util.Arrays;
 
-// public class basics {
+// public class DSA_practice {
 //     public static void main(String Args[]) {
 //         int[][] arr = { { 1, 2, 3 }, { 4, 5, 6,9 } };
 //         int maxelements[]=new int[arr.length];
@@ -1431,7 +1432,7 @@
 //     }
 // }
 
-// public class basics {
+// public class DSA_practice {
 
 //     public static void main(String Args[]) {
 //         int arr[][] = { { 5, 4, 7 },
@@ -1487,7 +1488,7 @@
 // }
 
 //Finding row with maximum numbner of 1s
-// public class basics {
+// public class DSA_practice {
 //     public static void main(String Args[]) {
 // int arr[][]={{1,1,1,2,1,1},
 //              {1,1,1,1,2,7},
@@ -1519,7 +1520,7 @@
 // import java.util.Map;
 // import java.util.HashMap;
 
-// public class basics {
+// public class DSA_practice {
 //     public static void main(String Args[]) {
 //         int arr[][] = { { 1, 2, 3 },
 //                 { 2, 3, 6 },
@@ -1552,4 +1553,8 @@
 
 // }
 
-public class basics{public static void main(String Args[]){ } }
+public class DSA_practice {
+    public static void main(String Args[]) {
+
+    }
+ }
