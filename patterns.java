@@ -292,21 +292,99 @@
 //             }
 //             System.out.println();
 //         }
-        
 
 //         //printing lower half
-//         for (int i = 0; i < n; i++) {
-//             System.out.print("|");
-//             for (int j = 0; j <= i; j++) {
-//                 System.out.print(" ");
+// for (int i = 0; i < n; i++) {
+//     System.out.print("|");
+//     for (int j = 0; j <= i; j++) {
+//         System.out.print(" ");
+//     }
+//     for (int j = n - i; j > 1; j--) {
+//         System.out.print("*");
+//     }
+//     System.out.println();
+// }
+//     }
+// };
+
+
+
+
+
+
+
+
+//number patterns: 
+// 1111
+// 2222
+// 3333
+// 4444
+// public class patterns {
+//     public static void main(String Args[]) {
+//         int n = 4;
+//         for (int i = 1; i <= n; i++) {
+
+//             for (int j = 0; j < n; j++) {
+//                 System.out.print(i);
 //             }
-//             for (int j = n - i; j > 1; j--) {
-//                 System.out.print("*");
+// System.out.println();
+
+//         }
+//     }
+// };
+
+// 1
+// 23
+// 456
+// 78910
+// public class patterns {
+//     public static void main(String Args[]) {
+//         int n = 4;
+//         int count=1;
+//         for (int i = 0; i < n; i++) {
+//             for (int j = 0; j <= i; j++) {
+//                 System.out.print(count);
+//                 count++;
+//             }
+// System.out.println();
+//         }
+//     }
+// };
+
+// 10987
+// 654
+// 32
+// 1
+
+// public class patterns {
+//     public static void main(String Args[]) {
+//         int n = 4;
+//         int count = 10;
+//         for (int i = 0; i < n; i++) {
+//             for (int j = n - 1; j >=i; j--) {
+//                 System.out.print(count);
+//                 count--;
 //             }
 //             System.out.println();
 //         }
 //     }
 // };
 
+// 6666
+// 555
+// 44
+// 3
 
-// public class patterns{public static void main(String Args[]){int n=5;for(int i=0;i<n; i++){System.out.print("|");}}};
+// public class patterns {
+//     public static void main(String Args[]) {
+//         int n = 4;
+//         int count = 6;
+//         for (int i = n; i >= 1; i--) {
+//          for (int j = 0; j <=i; j++) {
+//              System.out.print(count);
+//             }
+//             count--;
+//          System.out.println();
+//         }
+//     }
+// };
