@@ -307,13 +307,6 @@
 //     }
 // };
 
-
-
-
-
-
-
-
 //number patterns: 
 // 1111
 // 2222
@@ -388,3 +381,110 @@
 //         }
 //     }
 // };
+
+// 3
+// 44
+// 555
+// 6666
+// public class patterns {
+//     public static void main(String Args[]) {
+//         int n = 4;
+//         int count = 3;
+//         for (int i = 0; i < n; i++) {
+//             for (int j = 0; j <= i; j++) {
+//                 System.out.print(count);
+//             }
+//             count++;
+//             System.out.println();
+//         }
+//     }
+// };
+
+// 3
+// 4 5
+// 6 7 8
+// 9 10 11 12
+
+// public class patterns {
+//     public static void main(String Args[]) {
+//         int n = 4;
+//         int count=3;
+//         for (int i = 0; i < n; i++) {
+//             for (int j = 0; j <= i; j++) {
+//                 System.out.print(count+" ");
+//                 count++;
+//             }
+//             System.out.println();
+//         }
+//     }
+// };
+
+// 3
+// 44
+// 555
+// 6666
+// 555
+// 44
+// 3
+
+// public class patterns {
+//     public static void main(String Args[]) {
+//         int un = 4;
+//         int count = 3;
+//         // printing upperhalf
+//         for (int i = 0; i < un; i++) {
+//             for (int j = 0; j <= i; j++) {
+//                 System.out.print(count);
+//             }
+//             count++;
+//             System.out.println();
+//         }
+
+//         //printing ower half
+//         count--;
+//         int ln = 3;
+//         for (int i = 0; i < ln; i++) {
+//             count--;
+//             for (int j = ln; j > i; j--) {
+//                 System.out.print(count);
+//             }
+//             System.out.println();
+//         } 
+
+//     }
+// };
+
+// 3
+// 45
+// 678
+// 9101112
+// 678
+// 45
+// 3
+
+public class patterns {
+    public static void main(String Args[]) {
+        // printing upper half
+        int un = 4;
+        int count = 3;
+        for (int i = 0; i < un; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print(count);
+                count++;
+            }
+            System.out.println();
+        }
+
+        // printing lower half
+        int ln = 3;
+        count-=4;
+                for (int i = 0; i <ln ; i++) {
+                    for (int j = ln - 1; j > i; j--) {
+                        System.out.print(count);
+                        count--;
+                    }
+                    System.out.println();
+                }
+
+    }
+};
