@@ -454,37 +454,56 @@
 //     }
 // };
 
-// 3
-// 45
-// 678
-// 9101112
-// 678
-// 45
-// 3
+// 2
+// 33
+// 444
+// 5555
+// 5555
+// 444
+// 33
+// 2
+
+// public class patterns {
+//     public static void main(String Args[]) {
+//         // printing upper half
+//         int n = 4;
+//         int count = 2;
+//         for (int i = 0; i < n; i++) {
+//             for (int j = 0; j <= i; j++) {
+//                 System.out.print(count);
+//             }
+//             count++;
+//             System.out.println();
+//         }
+//         count--;
+//         for (int i = 0; i < n; i++) {
+//             for (int j = n - i; j > 0; j--) {
+//                 System.out.print(count);
+
+//             }
+//             count--;
+//             System.out.println();
+//         }
+//     }
+// };
+
+
+
+
+// 1*2*3*4
+// 5*6*7*8
+// 9*10*11*12
+// 13*14*15*16*
 
 public class patterns {
     public static void main(String Args[]) {
-        // printing upper half
-        int un = 4;
-        int count = 3;
-        for (int i = 0; i < un; i++) {
-            for (int j = 0; j <= i; j++) {
-                System.out.print(count);
-                count++;
+        int n = 4;
+        int count = 1;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(count++ + "*");
             }
-            System.out.println();
-        }
-
-        // printing lower half
-        int ln = 3;
-        count-=4;
-                for (int i = 0; i <ln ; i++) {
-                    for (int j = ln - 1; j > i; j--) {
-                        System.out.print(count);
-                        count--;
-                    }
-                    System.out.println();
-                }
-
+    System.out.println();
+ }
     }
 };
